@@ -1,3 +1,9 @@
+" =============================================================================
+" Filename: autoload/lightline/colorscheme/darkspace.vim
+" Author: ts-26a
+" License: MIT License
+" Last Change: 2020/05/26 22:25:13.
+" =============================================================================
 let s:blue = '#8aa4f0'
 let s:green = '#8dd9a9'
 let s:red = '#bd6356'
