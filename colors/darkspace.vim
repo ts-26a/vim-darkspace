@@ -172,6 +172,11 @@ call s:HL('rubyInterpolationDelimiter',     s:purple,   '',         '')
 call s:HL('rubyStringDelimiter',            s:green,    '',         '')
 call s:HL('rubyRegexpSpecial',              s:cyan,     '',         '')
 
+" Help
+hi def link helpStar String
+hi def link helpBar Identifier
+hi def link helpBacktick Comment
+
 " Vim-Fugitive
 call s:HL('diffAdded',                      s:green,    '',         '')
 call s:HL('diffRemoved',                    s:red,      '',         '')
