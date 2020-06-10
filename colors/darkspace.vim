@@ -142,13 +142,13 @@ call s:HL('gitcommitDiscardedFile',         s:red,      '',         '')
 call s:HL('gitcommitUnmergedFile',          s:yellow,   '',         '')
 call s:HL('gitcommitSelectedType',          s:green,    '',         '')
 call s:HL('gitcommitDiscardedType',         s:red,      '',         '')
-hi link gitcommitNoBranch       gitcommitBranch
-hi link gitcommitUntracked      gitcommitComment
-hi link gitcommitDiscarded      gitcommitComment
-hi link gitcommitSelected       gitcommitComment
-hi link gitcommitDiscardedArrow gitcommitDiscardedFile
-hi link gitcommitSelectedArrow  gitcommitSelectedFile
-hi link gitcommitUnmergedArrow  gitcommitUnmergedFile
+hi def link gitcommitNoBranch       gitcommitBranch
+hi def link gitcommitUntracked      gitcommitComment
+hi def link gitcommitDiscarded      gitcommitComment
+hi def link gitcommitSelected       gitcommitComment
+hi def link gitcommitDiscardedArrow gitcommitDiscardedFile
+hi def link gitcommitSelectedArrow  gitcommitSelectedFile
+hi def link gitcommitUnmergedArrow  gitcommitUnmergedFile
 
 " HTML
 call s:HL('htmlArg',                        s:yellow,   '',         '')
@@ -182,9 +182,9 @@ call s:HL('diffAdded',                      s:green,    '',         '')
 call s:HL('diffRemoved',                    s:red,      '',         '')
 
 " Vim-Gittgutter
-hi link GitGutterAdd    SignifySignAdd
-hi link GitGutterChange SignifySignChange
-hi link GitGutterDelete SignifySignDelete
+hi def link GitGutterAdd    SignifySignAdd
+hi def link GitGutterChange SignifySignChange
+hi def link GitGutterDelete SignifySignDelete
 call s:HL('GitGutterChangeDelete',          s:orange,   '',         '')
 
 " Vim-Signify
