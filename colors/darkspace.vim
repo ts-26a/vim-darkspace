@@ -44,7 +44,7 @@ function! s:HL(group, fg, bg, attr)
     if !empty(a:attr)
         exec 'hi ' . a:group . ' gui=' . l:attr . ' cterm=' . l:attr
     endif
-endfun
+endfunction
 
 " Editor Highlights
 call s:HL('ColorColumn',                    '',         s:gray4,    '')
